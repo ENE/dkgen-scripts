@@ -1,5 +1,9 @@
 <Keyboard>
-  <WindowState>Maximised</WindowState>
+  <WindowState>Floating</WindowState>
+  <Width>100%</Width>
+  <Height>100%</Height>
+  <DockSize>Full</DockSize>
+  <Position>TopLeft</Position>
   <BackgroundColor>Black</BackgroundColor>
     <Grid>
       <!-- TO GENERATE -->

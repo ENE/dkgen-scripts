@@ -79,11 +79,11 @@ def setup_keyboard(name=None,hidden=True):
 	cols_element = ET.fromstring("<Cols>" + str(total_cols) + "</Cols>")
 	hidden_element = ET.fromstring("<HideFromKeyboardMenu>" + str(hidden) + "</HideFromKeyboardMenu>")
 
-	root.insert(2, hidden_element)  # 2 means it being the third tag (in this moment)
+	root.insert(6, hidden_element)  # 6 means it being the seventh tag (in this moment)
 
 	if name:
 		name_element = ET.fromstring("<Name>" + str(name) + "</Name>")
-		root.insert(0, name_element) # so hidden_element will be the forth tag
+		root.insert(0, name_element) # so hidden_element will be the eighth tag
 
 	# insert at top
 	grid = tree.find('Grid')
